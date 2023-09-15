@@ -1,0 +1,119 @@
+
+/* App.js (Main Component) */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.rotating-earth {
+  width: 350px;
+  height: auto;
+  position: relative;
+  animation: rotate 25s linear infinite; /* CSS animation for rotation */
+border-radius: 50%;
+}
+
+
+.image-container { display: flex;
+  justify-content: center;
+  align-items: center;}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Rotate from 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* Rotate to 360 degrees (full circle) */
+  }
+}
+
+
+.quote{
+  padding-bottom: 0px;
+  margin-bottom: -5px;
+}
+/* Dashboard.js (Dashboard Component) */
+.dashboard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.dashboard h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.dashboard h2 {
+  font-size: 1.5em;
+  color: #666;
+}
+
+
+
+/* DateTimePicker.js (DateTimePicker Component) */
+.date-time-picker {
+  background-color:fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+  height:auto ;
+}
+
+.date-time-picker h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.date-time-picker button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.date-time-picker button:hover {
+  background-color: #0056b3;
+}
+
+/* Layout.js (Layout Component) */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+
+input  { width: auto;}
+
+
+button {background-color: #007bff;
+color: #fff;
+}
