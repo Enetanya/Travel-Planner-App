@@ -11,29 +11,30 @@
   width: 350px;
   height: auto;
   position: relative;
-  animation: rotate 25s linear infinite; /* CSS animation for rotation */
-border-radius: 50%;
+  animation: rotate 25s linear infinite;
+  border-radius: 50%;
 }
 
-
-.image-container { display: flex;
+.image-container {
+  display: flex;
   justify-content: center;
-  align-items: center;}
+  align-items: center;
+}
 
 @keyframes rotate {
   from {
-    transform: rotate(0deg); /* Rotate from 0 degrees */
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg); /* Rotate to 360 degrees (full circle) */
+    transform: rotate(360deg);
   }
 }
 
-
-.quote{
+.quote {
   padding-bottom: 0px;
   margin-bottom: -5px;
 }
+
 /* Dashboard.js (Dashboard Component) */
 .dashboard {
   background-color: #fff;
@@ -54,8 +55,6 @@ border-radius: 50%;
   font-size: 1.5em;
   color: #666;
 }
-
-
 
 /* DateTimePicker.js (DateTimePicker Component) */
 .date-time-picker {
@@ -97,7 +96,7 @@ nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 nav li {
@@ -110,10 +109,31 @@ nav a {
   font-size: 1.2em;
 }
 
+input {
+  width: auto;
+}
 
-input  { width: auto;}
+button {
+  background-color: #007bff;
+  color: #fff;
+}
 
+/* Media Query for Mobile-Friendly Navigation */
+@media (max-width: 600px) {
+  nav {
+    padding: 10px 0;
+  }
 
-button {background-color: #007bff;
-color: #fff;
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  nav a {
+    font-size: 0.8em;
+  }
 }
