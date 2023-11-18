@@ -118,12 +118,6 @@ button {
   color: #fff;
 }
 
-/* Media Query for Mobile-Friendly Navigation */
-@media (max-width: 600px) {
-  nav {
-    padding: 10px 0;
-  }
-
   nav ul {
     flex-direction: row;
     justify-content: center;
@@ -152,3 +146,9 @@ input.tl{
   float: left; /* Aligns the checkbox to the left */
   margin-right: 5px; /* Adds space between checkbox and text */
 }
+
+/* Media Query for Mobile-Friendly Navigation */
+@media (max-width: 600px) {
+  nav {
+    padding: 10px 0;
+  }
