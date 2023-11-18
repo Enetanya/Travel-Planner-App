@@ -42,8 +42,8 @@ function TravelList() {
       <h2>Travel Checklist</h2>
       <ul>
         {updatedItems.map((item, index) => (
-          <li key={index}>
-            <label>
+          <li className="tl" key={index}>
+            <label className="tl">
               <input
                 type="checkbox"
                 checked={selectedItems.includes(item)}
