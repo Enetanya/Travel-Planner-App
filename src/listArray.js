@@ -108,8 +108,8 @@ export const quotes = [
     Traveling has the power to transform you into a storyteller who shares life-changing experiences.
   `,
   `
-    Traveling is like flirting with life. It's like saying, I would stay and love you, but I have to go; this is my station.
-    Compares travel to a romantic encounter with life itself.
+    Traveling opens the book of the world, inviting you to read its pages with the curiosity of a wanderer and the heart of an adventurer.
+    Compares travelling to reading the captivating pages of a book.
   `,
   `
     Traveling makes one modest - you see what a tiny place you occupy in the world.
