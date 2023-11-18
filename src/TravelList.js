@@ -45,6 +45,7 @@ function TravelList() {
           <li className="tl" key={index}>
             <label className="tl">
               <input
+                className="tl"
                 type="checkbox"
                 checked={selectedItems.includes(item)}
                 onChange={() => handleCheckboxChange(item)}
