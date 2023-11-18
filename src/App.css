@@ -142,13 +142,13 @@ li.tl {
   list-style: none; /* Removes default list styles */
 }
 
-input[type="checkbox"],
+input.tl,
 label.tl {
   text-align: left; /* Aligns checkbox and text to the left */
   display: block; /* Allows each element to take up the full width */
 }
 
-input[type="checkbox"] {
+input.tl{
   float: left; /* Aligns the checkbox to the left */
   margin-right: 5px; /* Adds space between checkbox and text */
 }
