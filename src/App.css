@@ -152,3 +152,17 @@ input.tl{
   nav {
     padding: 10px 0;
   }
+
+
+/* Default styles */
+input.tl{
+  width: 100%; /* Set the input width to fill its container */
+  /* Other styles */
+}
+
+/* Media query for smaller screens  */
+@media screen and (max-width: 600px) {
+  input.tl {
+    width: 80%;
+  }
+}
