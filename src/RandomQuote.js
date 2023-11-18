@@ -12,7 +12,7 @@ const RandomQuote = () => {
     const interval = setInterval(() => {
       const newIndex = Math.floor(Math.random() * quotes.length);
       setRandomIndex(newIndex);
-    }, 15000); // Change the interval (in milliseconds) for a new quote
+    }, 20000); // determines the interval (in milliseconds) between quotes
 
     return () => clearInterval(interval);
   }, []);
