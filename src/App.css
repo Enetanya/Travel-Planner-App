@@ -137,3 +137,18 @@ button {
     font-size: 0.8em;
   }
 }
+
+li.tl {
+  list-style: none; /* Removes default list styles */
+}
+
+input[type="checkbox"],
+label.tl {
+  text-align: left; /* Aligns checkbox and text to the left */
+  display: block; /* Allows each element to take up the full width */
+}
+
+input[type="checkbox"] {
+  float: left; /* Aligns the checkbox to the left */
+  margin-right: 5px; /* Adds space between checkbox and text */
+}
