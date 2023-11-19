@@ -117,20 +117,44 @@ button {
   background-color: #007bff;
   color: #fff;
 }
- 
+
+/* Media Query for Mobile-Friendly Navigation */
+@media (max-width: 600px) {
+  nav {
+    padding: 10px 0;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav li {
+    margin: 0 2px;
+  }
+
+  nav a {
+    font-size: 0.8em;
+  }
+}
+
+/* Style for the list items */
 li.tl {
-  list-style: none; /* Removes default list styles */
+  list-style: none; /* Remove default list styles */
+
 }
 
+/* Style for the div containing checkbox */
+div.tl {
+  margin-right: 10px; /* Example margin from the text */
+  }
+
+/* Style for the label elements */
 label.tl {
-  display: block; /* Allows each element to take up the full width */
-margin-bottom: ,5px;
+  display: flex; /* use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  margin-left: 5px; /* Example margin from the checkbox */
+  justify-content: flex-start;
+  margin-bottom: 5px;
 }
-
-div.tl{
-  
-  margin-bottom: 5px; /* Adds space  */
-}
-
-
 
