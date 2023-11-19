@@ -44,12 +44,13 @@ function TravelList() {
         {updatedItems.map((item, index) => (
           <li className="tl" key={index}>
             <label className="tl">
+            <div className="tl">
               <input
-                className="tl"
-                type="checkbox"
-                checked={selectedItems.includes(item)}
-                onChange={() => handleCheckboxChange(item)}
+               type="checkbox"
+             checked={selectedItems.includes(item)}
+                onChange={() =>             handleCheckboxChange(item)}
               />
+             </div>
               {item}
             </label>
           </li>
