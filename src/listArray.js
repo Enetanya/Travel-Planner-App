@@ -135,7 +135,7 @@ export const travelItems = [
   'Laptop or tablet (if necessary)',
   'Camera or smartphone for photos',
   'Power bank and charging cables',
-  'Apropriate clothing ',
+  'Appropriate clothing ',
   'Underwear and socks',
   'Comfortable walking shoes',
   'Swimwear (if relevant)',
