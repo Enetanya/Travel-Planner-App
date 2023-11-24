@@ -19,7 +19,7 @@ function SearchComponent() {
           apiUrl = `https://restcountries.com/v3.1/name/${query}?fields=name,official,unMember,currencies,capital,region`;
           break;
         case 'weather':
-          apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${query}&APPID=a35814ec507bb3c9716297d56bfb03d2`;
+          apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${query}&APPID=b36fcbe6e2ef43369a4eb3628fffc69b`;
           break;
         default:
           console.error('Invalid API name');
